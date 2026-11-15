@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Henrique Carvalho | Design para comunicação política</title>
+<meta name="description" content="Portfólio de Henrique Carvalho, designer gráfico em Fortaleza: campanhas políticas, social media e materiais de mandato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<a class="pular" href="#projetos">Pular para os projetos</a>
+
+<header class="topo">
+  <a class="marca" href="#inicio" aria-label="Henrique Carvalho, início">
+    <img class="mono" src="img/marca/monograma_escuro.png" alt="" width="44" height="44">
+    <span class="marca-nome">Henrique Carvalho</span>
+  </a>
+  <nav aria-label="Seções">
+    <a href="#projetos">Projetos</a>
+    <a href="#processo">Processo</a>
+    <a href="#outros">Outros trabalhos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a class="botao botao-azul js-behance" href="#contato">Ver no Behance</a>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <h1 class="hero-nome">
+      <span>Henrique</span>
+      <span>Carvalho</span>
+    </h1>
+    <figure class="hero-foto">
+      <img src="img/marca/foto-recortada.png" alt="Henrique Carvalho, designer gráfico">
+    </figure>
+    <div class="hero-texto">
+      <p class="hero-sub">Designer gráfico em Fortaleza. Crio identidades de campanha, conteúdo para redes sociais e materiais de mandato, do key visual à peça de rua.</p>
+      <div class="hero-acoes">
+        <a class="botao botao-azul" href="#projetos">Ver projetos</a>
+        <a class="botao botao-linha" href="#contato">Falar comigo</a>
+      </div>
+    </div>
+    <div class="tarja" aria-hidden="true"><span>Design para comunicação política e institucional</span></div>
+  </section>
+
+  <section class="projetos" id="projetos" aria-labelledby="t-projetos">
+    <div class="sec-cab">
+      <h2 id="t-projetos">Três frentes de uma comunicação política</h2>
+      <p>Cada projeto parte de uma peça-chave e se desdobra em três aplicações, como acontece numa campanha real. Os candidatos são fictícios e as imagens foram geradas com IA sob minha direção de arte.</p>
+    </div>
+    <div id="lista-kv"></div>
+  </section>
+
+  <section class="processo" id="processo" aria-labelledby="t-processo">
+    <h2 id="t-processo">Como eu trabalho</h2>
+    <ol class="passos">
+      <li><b>Briefing</b><span>Entendo o público, a pauta e o tom do mandato.</span></li>
+      <li><b>Conceito</b><span>Defino cor, tipografia e linguagem da peça-chave.</span></li>
+      <li><b>Peça-chave</b><span>Crio o key visual que guia todo o resto.</span></li>
+      <li><b>Desdobramentos</b><span>Adapto para feed, stories, impresso e rua, com agilidade.</span></li>
+    </ol>
+  </section>
+
+  <section class="outros" id="outros" aria-labelledby="t-outros">
+    <div class="sec-cab">
+      <h2 id="t-outros">Outros trabalhos</h2>
+      <p>Identidades visuais e peças para redes sociais feitas para clientes e projetos próprios entre 2017 e 2025.</p>
+    </div>
+    <div class="grade-outros" id="grade-outros"></div>
+  </section>
+
+</main>
+
+<footer class="rodape" id="contato">
+  <div class="rodape-chamada">
+    <h2>Vamos montar a comunicação do seu mandato?</h2>
+    <p>Photoshop, Illustrator, Canva, CapCut e Premiere. Formação em Design Gráfico pela Gracom e em Jogos Digitais.</p>
+  </div>
+  <ul class="contatos" id="contatos"></ul>
+  <p class="assina"><img class="mono" src="img/marca/monograma_claro.png" alt="" width="44" height="44"> Henrique Carvalho, Fortaleza</p>
+</footer>
+
+<dialog class="visor" id="visor" aria-label="Visualização ampliada">
+  <button class="visor-fechar" type="button" data-acao="fechar" aria-label="Fechar">×</button>
+  <button class="visor-nav anterior" type="button" data-acao="anterior" aria-label="Imagem anterior">‹</button>
+  <figure>
+    <img id="visor-img" alt="">
+    <figcaption id="visor-legenda"></figcaption>
+  </figure>
+  <button class="visor-nav proximo" type="button" data-acao="proximo" aria-label="Próxima imagem">›</button>
+</dialog>
+
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
