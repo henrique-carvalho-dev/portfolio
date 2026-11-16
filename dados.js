@@ -39,7 +39,7 @@ window.PORTFOLIO = {
       numero: '03',
       titulo: 'Materiais de mandato e rua',
       resumo: 'O mandato fora da tela: prestação de contas, cartazes de rua, uniforme da equipe e identificação de veículos e apoiadores.',
-      chave: { titulo: 'Capa informativa de prestação de contas: Dra. Helena Prado, deputada estadual (personagem fictícia)', img: 'img/kit/kv3-chave.jpg' },
+      chave: { titulo: 'Capa informativa de prestação de contas: Dra. Helena Prado, deputada estadual (personagem e dados fictícios)', img: 'img/kit/kv3-chave.jpg' },
       pecas: [
         { titulo: 'Cartazes de rua', img: 'img/kit/kv3-cartazes.jpg', forma: 'v' },
         { titulo: 'Camisas e bonés', img: 'img/kit/kv3-camisas.jpg', forma: 'h' },
