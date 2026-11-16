@@ -19,7 +19,7 @@ window.PORTFOLIO = {
       pecas: [
         { titulo: 'Bandeiras', img: 'img/kit/kv1-bandeiras.jpg', forma: 'v' },
         { titulo: 'Panfleto e santinho', img: 'img/kit/kv1-santinho.jpg', forma: 'h' },
-        { titulo: 'Campanha institucional (outdoor)', img: 'img/kit/kv1-outdoor.jpg', forma: 'h' }
+        { titulo: 'Outdoor de campanha', img: 'img/kit/kv1-outdoor.jpg', forma: 'h' }
       ]
     },
     {
@@ -27,7 +27,7 @@ window.PORTFOLIO = {
       numero: '02',
       titulo: 'Social media',
       resumo: 'O dia a dia do mandato no Instagram: posts que comunicam rápido, carrosséis que explicam pautas e stories para agenda e bastidores.',
-      chave: { titulo: 'Post de apresentação: Rafael Mendes, vereador (candidato fictício)', img: 'img/kit/kv2-chave.jpg' },
+      chave: { titulo: 'Post de apresentação: Rafael Mendes, vereador (personagem fictício)', img: 'img/kit/kv2-chave.jpg' },
       pecas: [
         { titulo: 'Posts de feed', img: 'img/kit/kv2-feed.jpg', forma: 'h' },
         { titulo: 'Carrossel de pauta', img: 'img/kit/kv2-carrossel.jpg', forma: 'h' },
@@ -38,8 +38,8 @@ window.PORTFOLIO = {
       id: 'mandato',
       numero: '03',
       titulo: 'Materiais de mandato e rua',
-      resumo: 'O mandato fora da tela: prestação de contas, cartazes de evento, uniforme da equipe e identificação de veículos e apoiadores.',
-      chave: { titulo: 'Capa informativa de prestação de contas: Dra. Helena Prado (candidata fictícia)', img: 'img/kit/kv3-chave.jpg' },
+      resumo: 'O mandato fora da tela: prestação de contas, cartazes de rua, uniforme da equipe e identificação de veículos e apoiadores.',
+      chave: { titulo: 'Capa informativa de prestação de contas: Dra. Helena Prado, deputada estadual (personagem fictícia)', img: 'img/kit/kv3-chave.jpg' },
       pecas: [
         { titulo: 'Cartazes de rua', img: 'img/kit/kv3-cartazes.jpg', forma: 'v' },
         { titulo: 'Camisas e bonés', img: 'img/kit/kv3-camisas.jpg', forma: 'h' },
